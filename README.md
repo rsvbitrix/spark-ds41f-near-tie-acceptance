@@ -207,3 +207,7 @@ python3 -I patch/lenient.py patch-out
 python3 tools/nb.py exact --sets text_en,code,think,think_en --extra '{"temperature": 1}'
 python3 tools/nb.py k05   --sets text_en,code,think,think_en --extra '{"temperature": 0.995}'
 ```
+
+## License
+
+Apache-2.0, the same as spark-ds41f and vLLM. See [LICENSE](LICENSE).
